@@ -55,7 +55,7 @@ JavaOpts: >-
 
 labels:
   app: zeebe    
-serviceType: ClusterIP
+serviceType: LoadBalancer
 serviceHttpPort: 9600
 serviceGatewayPort: 26500    
 serviceCommandPort: 26501     
